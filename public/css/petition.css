@@ -1,0 +1,78 @@
+body{
+  margin: 10px;
+  background-color: rgba(198, 193, 203, 0.44);
+
+}
+.maintitle{
+  width: 484px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%,0);
+}
+.title{
+  position: relative;
+  left: 50%;
+  transform: translate(-50%,0);
+  text-align: center;
+}
+.img{
+  height: 250px;
+  width: 250px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%,0);
+}
+
+.form{
+  width: 500px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%,0);
+
+}
+.canvas{
+  background-color: white;
+}
+.names{
+  margin: 5px;
+  position: relative;
+  left: 13%;
+}
+.submit{
+  width: 200px;
+  height: 25px;
+  margin: 5px;
+  position: relative;
+  left: 27%;
+
+}
+.btn{
+  height: 25px;
+  margin: 5px;
+  position: relative;
+  left: 27%;
+}
+.error{
+  color: red;
+  width: 302px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%,0);*/
+}
+.footer {
+  position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    background-color: rgba(198, 193, 203, 0.44);
+}
+
+a {
+  text-decoration: none;
+}
+
+#txt-footer {
+  color: rgba(#000000, 0.88);
+  /*font-family: Lobster;*/
+}

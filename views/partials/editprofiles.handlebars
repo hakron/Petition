@@ -1,0 +1,19 @@
+<form class="form" method="post">
+  <div class="params">
+    <input type="hidden" name="_csrf" value="{{csrfToken}}">
+
+  <label> First Name
+  <input type="text" name="firstname" required="true" id="name"></label>
+  <label> Last Name
+  <input type="text" name="lastname" required="true" id="lastname"></label>
+  <label> Email
+  <input type="email" name="email" required="true" id="email"></label>
+  <label> Age
+  <input type="number" name="age" id="age"></label>
+  <label> City
+  <input type="text" name="city" id="city"></label>
+  <label> Web page
+  <input type="url" name="web" id="web"></label>
+  <input type="submit" name="update" value="Update" id="update">
+  </div>
+</form>

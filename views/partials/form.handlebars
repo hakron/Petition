@@ -1,0 +1,16 @@
+<form class="form" method="post">
+  <div class="params">
+  <input type="hidden" name="_csrf" value="{{csrfToken}}">
+  <label> First Name
+  <input type="text" name="firstname" required="true" id="name"></label>
+  <label> Last Name
+  <input type="text" name="lastname" required="true" id="lastname"></label>
+  <label> Email
+  <input type="email" name="email" required="true" id="email"></label>
+  <label> Password
+  <input type="password" name="password" required="true" id="pwd"></label>
+  <input type="submit" name="signup" value="Sign up" id="signup">
+  </div>
+  <a class="login" href="/login"> Log in </a>
+
+</form>

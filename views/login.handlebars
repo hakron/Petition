@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{{title}}</title>
+  <link rel="stylesheet" href="/static/css/login.css">
+</head>
+{{body}}
+  <div class="maintitle">
+    {{>img}}
+    <h1 class="logmsg"> Please Log in. </h1>
+  </div>
+<section class="form">
+  <div class="errorpw"><p><span style="color: red;"> {{errorpw}}</span> </p></div>
+  <div class="erroremail"><p><span style="color: red;"> {{erroremail}}</span> </p></div>
+
+  {{>loginform}}
+</section>
+{{>footer}}
+</html>

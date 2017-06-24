@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="/static/css/signers.css">
+  <title>{{title}}</title>
+</head>
+<body>
+  
+      <div>
+        {{>img}}
+      </div>
+        <div class="users">
+        {{#each rows}}
+        <p id="data">{{firstname}} {{lastname}} ( {{age}}, <a href="/signers/{{city}}">{{city}}<a/>, <a href= "{{webpage}}">{{webpage}}</a> )</p>
+        {{/each}}
+      </div>
+  
+    <div>
+      <a class="back" href="/thanks"> Back </a>
+    </div>
+    {{>footer}}
+  </body>
+    </html>

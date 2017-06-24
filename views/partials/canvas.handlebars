@@ -1,0 +1,8 @@
+<form action="/petition" class="form" method="post">
+  <input type="hidden" name="_csrf" value="{{csrfToken}}">
+  <canvas class="canvas" type="text" id="signature" width="500" height="75" style="border: 2px solid #3e3e3e;">
+  <input type="hidden" name="saveSignature" id="saveSignature" >
+  </canvas>
+  <input type="submit" value="Submit" class="submit">
+</form>
+<button id="btn">Clear Signature</button>

@@ -1,0 +1,89 @@
+body{
+  margin: 10px;
+  background-color: rgba(198, 193, 203, 0.44);
+
+}
+.maintitle{
+  width: 500px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%,0);
+}
+.logmsg{
+  width: 500px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%,0);
+  text-align: center;
+}
+.img{
+  height: 250px;
+  width: 250px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%,0);
+}
+
+.form{
+  width: 175px;
+  position: absolute;
+  left: 50%;
+  top: 55%;
+  transform: translate(-50%,0);
+  display: inline-block;
+  margin: 1px;
+}
+#email, #pwd, #login{
+  margin: 5px;
+}
+#login{
+  width: 75px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%,0);
+}
+label{
+  font-weight: bold;
+  position: relative;
+}
+.regis{
+  width: 75px;
+  position: relative;
+  left: 39%;
+  transform: translate(-50%,0);
+}
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  background-color: rgba(198, 193, 203, 0.44);
+
+}
+
+.footer a {
+  text-decoration: none;
+  cursor: pointer;
+  color: rgba(#000000, 0.88);
+}
+
+#txt-footer {
+  color: rgba(#000000, 0.88);
+  /*font-family: Lobster;*/
+}
+.erroremail{
+  position: absolute;
+  left: 184%;
+  top: 97%;
+  transform: translate(-50%,-50%);
+  width: 296px;
+}
+.errorpw{
+  position: absolute;
+  left: 184%;
+  top:  120%;
+  transform: translate(-50%,118%);
+  width: 296px;
+}
+}
