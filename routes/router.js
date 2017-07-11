@@ -111,7 +111,7 @@ router.route('/login')
     if (!exists){
       res.render('login',{
         title:'Petition Againts socks with Sandals',
-        erroremail: `That email does not exists! You need to <a href="/register"> register</a>`
+        erroremail: `That email does not exists! You need to register`
       });
     } else {
       dbdata.getPassword(req.body.email).then(function(results){
@@ -130,13 +130,11 @@ router.route('/login')
               });
             }).then(function(user){
               res.redirect('/thanks');
-
             })
 
           } else {
             res.json({
               success:false
-            });
             });
           }
         });

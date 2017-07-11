@@ -1,6 +1,7 @@
 const spicedPg = require('spiced-pg');
 const bodyParser = require('body-parser');
-var dbUrl = process.env.DATABASE_URL || require("./secrets.json").dbUrl;
+var secrets = require('./secrets.json');
+var dbUrl = process.env.DATABASE_URL ||`postgres:${secrets.dbUser}:${secrets.password}@localhost:5432/petition`;
 var db = spicedPg(dbUrl);
 // <======== check if the email exists when the user register ========>
 function checkIfEmailExists(email) {
