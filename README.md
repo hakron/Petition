@@ -1,6 +1,6 @@
 # Petition
 
- Web App where the users can register in a data base and login.
+Multi-page application where the users can register in a data base and login.
 
  When the users login they were redirected to a page where they can see what is the petition about, and sign the petition with their names and signature.
 
@@ -8,7 +8,7 @@
 
   Project created with:
 
-    o	Javascript  | Canvas | NodeJs | Express.js | Jquery | PostgreSQL | SQL | HTML | CSS
+    o	Javascript  | Handlebars.js | Canvas | NodeJs | Express.js | Jquery | PostgreSQL | SQL | HTML | CSS
 
 ![petition_1](https://user-images.githubusercontent.com/12187795/28056842-afa91fc4-661e-11e7-95ab-2aa42c266e5a.png)
 
